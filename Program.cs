@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Heranca01
+﻿namespace Heranca01
 {
     class Program
     {
