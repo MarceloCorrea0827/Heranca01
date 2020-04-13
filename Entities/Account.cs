@@ -15,9 +15,9 @@
             Balance = balance;
         }
 
-        public void withdraw(double amount)
+        public virtual void withdraw(double amount)
         {
-            Balance -= amount;
+            Balance -= amount + 5.00;
         }
 
         public void deposit(double amount)
