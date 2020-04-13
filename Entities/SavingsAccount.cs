@@ -16,9 +16,10 @@
         {
         }
 
-        public void withdraw(double amount)
+        public override void withdraw(double amount)
         {
-            Balance -= amount;
+            base.withdraw(amount);
+            Balance -= 2;
         } 
     }
 }
